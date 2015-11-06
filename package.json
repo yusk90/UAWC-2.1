@@ -1,0 +1,32 @@
+{
+  "name": "webcua",
+  "version": "0.1.0",
+  "devDependencies": {
+    "backbone": "^1.2.3",
+    "backbone.localstorage": "^1.1.16",
+    "browser-sync": "^2.9.10",
+    "del": "~2.0.2",
+    "dragula": "~3.5.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-css-url-adjuster": "~0.2.3",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-requirejs-optimize": "^0.3.0",
+    "gulp-shell": "~0.5.1",
+    "gulp.spritesmith": "^4.1.1",
+    "jquery": "^2.1.4",
+    "requirejs": "~2.1.20",
+    "requirejs-text": "~2.0.12",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^4.2.0"
+  }
+}

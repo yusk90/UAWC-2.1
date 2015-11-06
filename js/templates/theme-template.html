@@ -1,0 +1,30 @@
+<div class="top">
+    <div class="top__left">
+        <img src="images/icon-image.svg" alt="Ваше зображення"/>
+        <div class="top__description">
+            Перетягни сюди картинку чи натисни на іконку щоб додати
+        </div>
+    </div>
+    <div class="top__right">
+        <h1 contenteditable="true">Відредагуй заголовок просто натиснувши на текст</h1>
+    </div>
+</div>
+<div id="constructor-row-1" class="center container">
+    <div class="row">
+        <div class="col-md-12"></div>
+    </div>
+</div>
+<div id="constructor-row-2" class="center container">
+    <div class="row">
+        <% for (var blocks = 1; blocks <= row2; blocks++) { %>
+        <div class="col-md-<%= 12/row2 %>"></div>
+        <% } %>
+    </div>
+</div>
+<div id="constructor-row-3" class="center container">
+    <div class="row">
+        <% for (var blocks = 1; blocks <= row3; blocks++) { %>
+        <div class="col-md-<%= 12/row3 %>"></div>
+        <% } %>
+    </div>
+</div>

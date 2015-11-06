@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Українська біржа благодійності | Конструктор</title>
+    <link rel="stylesheet" href="css/libs.min.css"/> <!-- Normalize -->
+    <link rel="stylesheet" href="css/theme.min.css"/> <!-- Style -->
+</head>
+<body>
+    <header class="header" role="banner">
+        <a class="header__logo" href="/">
+            <img src="images/logo-horizontal.svg" alt="Логотип української біржі благодійності"/>
+        </a>
+        <form action="" method="get">
+            <input type="text" name="order[project]" class="header__input" placeholder="Дайте власну назву проекту"/>
+        </form>
+        <div class="header__navigation" role="navigation">
+            <a href="" title="Налаштування" class="header__option">Налаштування</a>
+            <a href="" title="Допомога" class="header__help">Допомога</a>
+        </div>
+    </header>
+    <div class="page" role="main">
+        <div id="constructor-widget" class="page__sheet"></div>
+    </div>
+    <aside class="panel" role="complementary">
+        <ul class="template__tabs">
+            <li class="template__content active" role="tab">Контент</li>
+            <li class="template__design" role="tab">Дизайн</li>
+        </ul>
+        <div id="constructor-elements" class="elements">
+            <div data-function="addH1" title="H1"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/H1.svg" alt="H1"/>
+                    <div class="elements__text">Заголовок</div>
+                </div>
+            </div>
+            <div data-function="addH2" title="H2" class="elements__block">
+                <div class="elements__wrap small">
+                    <img src="images/panel/H2.svg" alt="H2"/>
+                    <div class="elements__text">Підзаголовок</div>
+                </div>
+            </div>
+            <div data-function="addBlockquote" title="Цитата"
+               class="elements__block">
+                <div class="elements__wrap small">
+                    <img src="images/panel/quotes.svg" alt="Цитата"/>
+                    <div class="elements__text">Цитата</div>
+                </div>
+            </div>
+            <div data-function="addParagraph" title="Текст"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/text.svg" alt="Текст"/>
+                    <div class="elements__text">Текст</div>
+                </div>
+            </div>
+            <div data-function="addWell" title="Текст в блоці"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/text_block.svg" alt="Текст в блоці"/>
+                    <div class="elements__text">Текст в блоці</div>
+                </div>
+            </div>
+            <div data-function="addHr" title="Розділювач"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/divider.svg" alt="Розділювач"/>
+                    <div class="elements__text">Розділювач</div>
+                </div>
+            </div>
+            <div data-function="addImage" title="Картинка"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/icon-image.svg" alt="Картинка"/>
+                    <div class="elements__text">Картинка</div>
+                </div>
+            </div>
+            <div data-function="addImageWithText" title="Карт. + текст"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/image_text.svg" alt="Карт. + текст"/>
+                    <div class="elements__text">Карт. + текст</div>
+                </div>
+            </div>
+            <div data-function="addGallery" title="Галерея"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/galery.svg" alt="Галерея"/>
+                    <div class="elements__text">Галерея</div>
+                </div>
+            </div>
+            <div data-function="addVideo" title="Відео"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/video.svg" alt="Відео"/>
+                    <div class="elements__text">Відео</div>
+                </div>
+            </div>
+            <div data-function="addCounter" title="Лічильник"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/counter.svg" alt="Лічильник"/>
+                    <div class="elements__text">Лічильник</div>
+                </div>
+            </div>
+            <div data-function="addButton" title="Кнопка"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/button.svg" alt="Кнопка"/>
+                    <div class="elements__text">Кнопка</div>
+                </div>
+            </div>
+            <div data-function="addSocialLike" title="Social Like" class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/soc-like.svg" alt="Social Like"/>
+                    <div class="elements__text">Social Like</div>
+                </div>
+            </div>
+            <div data-function="addSocialShare" title="Social Share" class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/share.svg" alt="Social Share"/>
+                    <div class="elements__text">Social Share</div>
+                </div>
+            </div>
+            <div data-function="addFooter" title="Підвал"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/footer.svg" alt="Підвал"/>
+                    <div class="elements__text">Підвал</div>
+                </div>
+            </div>
+            <div data-function="addMap" title="Карта" class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/icon-map.svg" alt="Карта"/>
+                    <div class="elements__text">Карта</div>
+                </div>
+            </div>
+            <div data-function="addMenu" title="Меню" class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/menu.svg" alt="Меню"/>
+                    <div class="elements__text">Меню</div>
+                </div>
+            </div>
+            <div data-function="addContacts" title="Контакти"
+               class="elements__block">
+                <div class="elements__wrap">
+                    <img src="images/panel/contacts.svg" alt="Контакти"/>
+                    <div class="elements__text">Контакти</div>
+                </div>
+            </div>
+        </div>
+        <form class="design settings" action="" method="get">
+            <div class="design__item open">
+                <div class="design__title">Стиль фону</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Колір фону</div>
+                        <label class="setting__value" for="color"><input type="color" value="#00d0ff" id="color" name="order[color]">#97A0A3</label>
+                    </div>
+                    <div class="setting__select">
+                        <div class="setting__title">Структура</div>
+                        <select name="order[select]" id="select">
+                            <option value="пісок">пісок</option>
+                            <option value="суцільне">суцільне</option>
+                        </select>
+                    </div>
+                    <div class="setting__border">
+                        <div class="setting__title">Кайма</div>
+                        <select name="order[select-border]" id="select-border">
+                            <option value="суцільна">суцільна</option>
+                            <option value="пунктирна">пунктирна</option>
+                            <option value="штрих-пунктирна">штрих-пунктирна</option>
+                        </select>
+                        <input type="text" value="1px"/>
+                        <label class="setting__value" for="border-color"><input type="color" value="#6f99ad" id="border-color" name="order[color]">#6F99AD</label>
+                    </div>
+                </div>
+            </div>
+            <!-- end item -->
+            <div class="design__item">
+                <div class="design__title">Стиль цитат</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Стиль цитат</div>
+                    </div>
+                </div>
+            </div>
+            <!-- end item -->
+            <div class="design__item">
+                <div class="design__title">Стиль тексту</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Стиль тексту</div>
+                    </div>
+                </div>
+            </div>
+            <!-- end item -->
+            <div class="design__item">
+                <div class="design__title">Стиль лінків</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Стиль лінків</div>
+                    </div>
+                </div>
+            </div>
+            <!-- end item -->
+            <div class="design__item">
+                <div class="design__title">Стиль футеру</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Стиль футеру</div>
+                    </div>
+                </div>
+            </div>
+            <!-- end item -->
+            <div class="design__item">
+                <div class="design__title">Стиль лічильника</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Стиль лічильника</div>
+                    </div>
+                </div>
+            </div>
+            <!-- end item -->
+            <div class="design__item">
+                <div class="design__title">Стиль соціальних кнопок</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Стиль соціальних кнопок</div>
+                    </div>
+                </div>
+            </div>
+            <!-- end item -->
+            <div class="design__item">
+                <div class="design__title">Мобільна версія</div>
+                <div class="setting">
+                    <div class="setting__bgcolor">
+                        <div class="setting__title">Мобільна версія</div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </aside>
+    <footer class="footer" role="contentinfo">
+        <div class="footer__link">
+            Ваша сторінка проекту на сайті УББ:
+        </div>
+        <input type="text" name="order[link]" class="footer__input" value="http://"/>
+        <ul class="footer__steps">
+            <li class="active">Обрати шаблон</li>
+            <li class="active">Редагувати</li>
+            <li>Зберегти</li>
+            <li>Отримати лінк</li>
+        </ul>
+    </footer>
+    <script data-main="js/constructor-script" src="js/libs/require.js"></script>
+</body>
+</html>

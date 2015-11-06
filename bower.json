@@ -1,0 +1,8 @@
+{
+  "name": "webcua",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "normalize-css": "https://github.com/necolas/normalize.css.git#~3.0.3"
+  }
+}

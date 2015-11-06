@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Українська біржа благодійності</title>
+    <link rel="stylesheet" href="css/libs.min.css"/> <!-- Normalize -->
+    <link rel="stylesheet" href="css/main.min.css"/> <!-- Style -->
+</head>
+<body>
+    <div class="background" role="main">
+        <div class="background__wrap">
+            <h1>Створи свою <br/> інтернет-сторінку</h1>
+            <h3>Це легко з допомогою простого конструктора</h3>
+            <a href="" title="Натисни для перегляду" class="background__triangle">
+                <img src="images/triangle.svg" alt="Кнопка переходу до відеоматериалу"/>
+            </a>
+        </div>
+        <div class="background__gradient"></div>
+    </div>
+    <aside class="sidebar sing_in" role="complementary">
+        <div class="sidebar__logo">
+            <img src="images/logo-vertical.svg" alt="Логотип біржі благодійності"/>
+        </div>
+        <form id="signin-form" action="" method="get" autocomplete="on" class="sidebar__form">
+            <input id="user-email" type="email" name="order[email]" class="sidebar__input" placeholder="E-mail"/>
+            <input id="user-password" type="password" name="order[pass]" class="sidebar__input" placeholder="Пароль"/>
+            <input id="submit-form" type="submit" class="sidebar__submit" value="Увійти"/>
+            <div class="sidebar__signin">
+                Немає аккаунту?
+                <a href="index.html" title="Зареєструватись">Зареєструватись</a>
+            </div>
+        </form>
+        <div class="sidebar__footer">
+            2012-2015<br/>
+            © Українська біржа благодійності
+        </div>
+    </aside>
+    <script data-main="js/signin-script" src="js/libs/require.js"></script>
+</body>
+</html>
